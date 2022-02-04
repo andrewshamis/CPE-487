@@ -1,0 +1,44 @@
+architecture example_code_arch of example code is 
+    component instance1 is port
+    (
+        port_in : in std_logic;
+        ...
+        port_out : out std_logic
+    );
+
+    component instance2 is port(
+        ...
+        port_out4 : out std_logic_vector(3 downto 0);
+    );
+  
+    signal sig_a : std_logic;
+    signal sig_b : std_logic_vector(1 downto 0);
+    signal sig_c : std_logic_vector(3 downto 0);
+    ...
+  
+ begin
+    comp1 : instance1
+    port map (
+        port_in => sig_a;
+        ...
+        port_out => sig_b;
+    );
+  
+    comp2 : instance2
+    port map(
+        ...
+        port_out4 => sig_c;
+    );
+  
+    comp3 : instance1
+    port map(
+    ...
+    );
+
+    sig_a <= port_1 and sig_c(0);
+
+    process(sig_c) begin
+        port_2 <= sig_c(3 downto 1);
+    end process;
+  
+ end example_code_arch;
