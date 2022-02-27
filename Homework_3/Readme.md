@@ -15,12 +15,15 @@
 
 ## Project 1: LED Decoder
 
-The implemented design of the circuit in Vivado is shown in the image below.
-The GIF below shows how using switches 13, 14, and 15 on the Nexys A7 board moves the placement of the LED selected.
-![](C:\Users\asham\Downloads\IMG_9ic61k.gif)
+The GIF below shows how the LEDs change places on the board by flipping different combinations of switches 13, 14, and 15.
+
+
+![](leddec_result.gif)
 
 
 The GIF below shows how using switches 0, 1, 2, and 3 on the Nexys A7 board changes the hexadecimal number displayed.
+
+![](hexcount_result.gif)
 
 ---
 
