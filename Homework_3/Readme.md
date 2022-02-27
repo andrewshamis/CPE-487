@@ -31,5 +31,5 @@ The GIF below shows how using switches 0, 1, 2, and 3 on the Nexys A7 board chan
 
 The implemented design of the circuit in Vivado is shown in the video below.
 
-![This is an image](https://github.com/Arif12467/Digital-System-Design-AIA/blob/09ef5d207eed51d7445debee9727d03425e9bd22/Assignment-3/implemented_design_1.png)
+![This is an image](final_design.png)
 
