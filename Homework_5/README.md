@@ -33,6 +33,8 @@ https://user-images.githubusercontent.com/78375489/160260020-3e26223f-0859-4960-
 
 The updated version of the code has changed the shape and color of the ball, as well as the directions that it can bounce in (now vertical and horizontal)
 
+https://user-images.githubusercontent.com/78375489/160260046-c3176b9a-0d10-435d-a7e8-c35a74963ce8.mp4
+
 # Lab 6
 
 ## VHDL Files
