@@ -1,19 +1,19 @@
 # Lab 3
 
 ## VHDL Files
-Ball:
+Ball: [ball.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/ball.vhd)
 
-Clocking Wizard:
+Clocking Wizard: [clk_wiz_0.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/clk_wiz_0.vhd)
 
-Clocking Wizard Architecture:
+Clocking Wizard Architecture: [clk_wiz_0_clk_wiz.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/clk_wiz_0_clk_wiz.vhd)
 
-VGA Sync:
+VGA Sync: [vga_sync.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/vga_sync.vhd)
 
-VGA Top:
+VGA Top: [vga_top.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/vga_top.vhd)
 
 
 ## Constraint Files:
-Bouncing Ball:
+Bouncing Ball: [vga_top.xdc](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/vga_top.xdc)
 
 ## Required Hardware:
 - Monitor with VGA connection or HDMI
@@ -22,6 +22,8 @@ Bouncing Ball:
 ## Project 1: Bouncing Ball
 
 Below is the implemented design of the circuit in Vivado.
+
+![Implemented Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/Implemented_Design.jpg)
 
 The video shows a red square bouncing up and down across a monitor.
 
