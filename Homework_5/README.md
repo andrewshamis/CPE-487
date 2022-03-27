@@ -56,16 +56,16 @@ https://user-images.githubusercontent.com/78375489/160260046-c3176b9a-0d10-435d-
 
 ### Modified Video Game Pong
 
-- Bat and Ball: [batt_n_ball_1.vhd]()
+- Bat and Ball: [batt_n_ball_1.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/bat_n_ball_1.vhd)
 
-- LED Decoder: [leddec16.vhd]()
+- LED Decoder: [leddec16.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/leddec16.vhd)
 
-- PONG: [pong_1.vhd]()
+- PONG: [pong_1.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/pong_1.vhd)
 
 
 ## Constraint Files:
 - PONG: [pong.xdc](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/pong.xdc)
-- Modified PONG: [pong_1.xdc]()
+- Modified PONG: [pong_1.xdc](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/pong_1.xdc)
 
 ## Required Hardware:
 - Monitor with VGA connection or HDMI
@@ -75,7 +75,7 @@ https://user-images.githubusercontent.com/78375489/160260046-c3176b9a-0d10-435d-
 
 Below is the implemented design of the circuit in Vivado.
 
-
+![Implemented Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/Lab_6_Implemented_Design_3.jpg)
 
 The video shows a game of pong that requires the use of a potentiometer to move a blue base across the screen and bounce a red ball
 
@@ -84,6 +84,8 @@ https://user-images.githubusercontent.com/78375489/160262570-e098638f-275f-4229-
 ## Project 2: Modified Pong Game
 
 The updated version of the code changes the thickness of the base, adds a counter for the number of hits every game, and decreases the width of the base by one pixel after every hit.
+
+![Modified Implemented Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/Lab_6_Implemented_Design_4.jpg)
 
 
 
