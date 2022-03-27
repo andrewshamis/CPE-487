@@ -41,39 +41,31 @@ https://user-images.githubusercontent.com/78375489/160260046-c3176b9a-0d10-435d-
 
 ### Video Game Pong
 
-- Analog to Digital Converter:
+- Analog to Digital Converter: [adc_if.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/adc_if.vhd)
 
-- -Bat and Ball: bat_n_ball.vhd
+- Bat and Ball: [bat_n_ball.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/bat_n_ball.vhd)
 
-- Clocking Wizard: clk_wiz_0.vhd
+- Clocking Wizard: [clk_wiz_0.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/clk_wiz_0.vhd)
 
-- Clocking Wizard Architecture: clk_wiz_0_clk_wiz.vhd
+- Clocking Wizard Architecture: [clk_wiz_0_clk_wiz](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/clk_wiz_0_clk_wiz.vhd)
 
-- PONG: pong.vhd
+- PONG: [pong.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/pong.vhd)
 
-- VGA Sync: vga_sync.vhd
+- VGA Sync: [vga_sync](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/vga_sync.vhd)
 
 
 ### Modified Video Game Pong
 
-- Analog to Digital Converter:
+- Bat and Ball: [batt_n_ball_1.vhd]()
 
-- Bat and Ball:
+- LED Decoder: [leddec16.vhd]()
 
-- Clocking Wizard:
-
-- Clocking Wizard Architecture:
-
-- LED Decoder:
-
-- PONG: pong.vhd
-
-- VGA Sync:
+- PONG: [pong_1.vhd]()
 
 
 ## Constraint Files:
-- PONG: 
-- Modified PONG:
+- PONG: [pong.xdc](https://github.com/andrewshamis/CPE-487/blob/main/Homework_5/pong.xdc)
+- Modified PONG: [pong_1.xdc]()
 
 ## Required Hardware:
 - Monitor with VGA connection or HDMI
@@ -83,7 +75,11 @@ https://user-images.githubusercontent.com/78375489/160260046-c3176b9a-0d10-435d-
 
 Below is the implemented design of the circuit in Vivado.
 
+
+
 The video shows a game of pong that requires the use of a potentiometer to move a blue base across the screen and bounce a red ball
+
+https://user-images.githubusercontent.com/78375489/160262570-e098638f-275f-4229-8745-6dd64a518bda.mp4
 
 ## Project 2: Modified Pong Game
 
