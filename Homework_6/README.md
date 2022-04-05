@@ -26,6 +26,9 @@ Below is the implemented design of the circuit in Vivado.
 
 ![Implemented_Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/Lab_4_Implemented_Design.jpg)
 
+![Hex Calculator](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/IMG_docpqs.gif)
+
+
 ## Project 2: Modified Hex Calculator
 
 The modified hexcalc files serve to make the following changes:
@@ -37,3 +40,5 @@ The modified hexcalc files serve to make the following changes:
 Below is an implemented design of the updated circuit in Vivado.
 
 ![Modified_Implemented_Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/Lab_4_Implemented_Design_1.jpg)
+
+![Modified Hex Calculator](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/IMG_sm4nim.gif)
