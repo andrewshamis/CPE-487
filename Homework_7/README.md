@@ -3,20 +3,20 @@
 ## VHDL Files
 
 ### DAC Siren
-- Digital to Analog Converter: [dac_if.vhd]()
-- Siren: [siren.vhd]()
-- Tone: [tone.vhd]()
-- Wail: [wail.vhd]()
+- Digital to Analog Converter: [dac_if.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/dac_if.vhd)
+- Siren: [siren.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/siren.vhd)
+- Tone: [tone.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/tone.vhd)
+- Wail: [wail.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/wail.vhd)
 
 ### Modified DAC Siren
-- Digital to Analog Converter: [dac_if.vhd]()
-- Siren: [siren.vhd]()
-- Tone: [tone.vhd]()
-- Wail: [wail.vhd]()
+- Digital to Analog Converter: [dac_if.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/dac_if.vhd)
+- Siren: [siren_1.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/siren_1.vhd)
+- Tone: [tone_1.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/tone_1.vhd)
+- Wail: [wail_1.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/wail_1.vhd)
 
 ## Constraint Files:
-- Siren: [siren.xdc]()
-- Modified Siren: [siren_1.xdc]()
+- Siren: [siren.xdc](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/siren.xdc)
+- Modified Siren: [siren_1.xdc](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/siren_1.xdc)
 
 ## Required Hardware:
 - Pmod I2S
@@ -26,7 +26,7 @@
 
 Below is the implemented design of the circuit in Vivado.
 
-![Implemented_Design]()
+![Implemented_Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/Implemented_Design.jpg)
 
 ![DAC Siren]()
 
@@ -45,6 +45,6 @@ The modified hexcalc files serve to make the following changes:
 
 Below is an implemented design of the updated circuit in Vivado.
 
-![Modified_Implemented_Design]()
+![Modified Implemented Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/Implemented_Design_Modified.jpg)
 
-![Modified Hex Calculator]()
+![Modified DAC Siren]()
