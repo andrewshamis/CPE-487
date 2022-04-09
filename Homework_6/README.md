@@ -1,50 +1,44 @@
-# Lab 5: DAC Siren
+# Lab : Hex Calculator
 
 ## VHDL Files
 
-### DAC Siren
-- Digital to Analog Converter: [dac_if.vhd]()
-- Siren: [siren.vhd]()
-- Tone: [tone.vhd]()
-- Wail: [wail.vhd]()
+### Calculator
+- Hex Calculator: [hexcalc.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/hexcalc.vhd)
+- Keypad: [keypad.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/keypad.vhd)
+- LED Decorder (16-bit): [leddec16.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/leddec16.vhd)
 
-### Modified DAC Siren
-- Digital to Analog Converter: [dac_if.vhd]()
-- Siren: [siren.vhd]()
-- Tone: [tone.vhd]()
-- Wail: [wail.vhd]()
+### Modified Calculator
+- Hex Calculator: [hexcalc_1.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/leddec16.vhd)
+- Keypad: [keypad.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/keypad.vhd)
+- LED Decorder (16-bit): [leddec16_1.vhd](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/leddec_1.vhd)
 
 ## Constraint Files:
-- Siren: [siren.xdc]()
-- Modified Siren: [siren_1.xdc]()
+- Hex Calculator: [hexcalc.xdc](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/hexcalc.xdc)
+- Modified Hex Calculator: [hexcalc_1.xdc](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/hexcalc_1.xdc)
 
 ## Required Hardware:
-- Pmod I2S
-- 3.5mm Speaker
+- Pmod Keypad
+- Pin Connector
 
-## Project 1: DAC Siren
+## Project 1: Hex Calculator
 
 Below is the implemented design of the circuit in Vivado.
 
-![Implemented_Design]()
+![Implemented_Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/Lab_4_Implemented_Design.jpg)
 
-![DAC Siren]()
+![Hex Calculator](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/IMG_docpqs.gif)
 
 
-## Project 2: Modified DAC Siren
+## Project 2: Modified Hex Calculator
 
 The modified hexcalc files serve to make the following changes:
 
-- tone_1.vhd: tone_select, btn_press, data_sq
-
-- wail_1.vhd: btn_press
-
-- siren_1.vhd: left and right channels
-
-- siren_1.xdc: BTNU (M18), SW0-SW7
+- Leading zero suppression (ledded16_1.vhd)
+- subtraction operations (hexcalc_1.vhd)
+- The BTND (P18) button for substraction (hexcalc_1.xdc)
 
 Below is an implemented design of the updated circuit in Vivado.
 
-![Modified_Implemented_Design]()
+![Modified_Implemented_Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/Lab_4_Implemented_Design_1.jpg)
 
-![Modified Hex Calculator]()
+![Modified Hex Calculator](https://github.com/andrewshamis/CPE-487/blob/main/Homework_6/IMG_sm4nim.gif)
