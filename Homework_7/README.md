@@ -28,9 +28,6 @@ Below is the implemented design of the circuit in Vivado.
 
 ![Implemented_Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/Implemented_Design.jpg)
 
-![DAC Siren](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/CPE%20487%20Lab%205.mp3)
-
-
 ## Project 2: Modified DAC Siren
 
 The modified hexcalc files serve to make the following changes:
@@ -46,5 +43,3 @@ The modified hexcalc files serve to make the following changes:
 Below is an implemented design of the updated circuit in Vivado.
 
 ![Modified Implemented Design](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/Implemented_Design_Modified.jpg)
-
-![Modified DAC Siren](https://github.com/andrewshamis/CPE-487/blob/main/Homework_7/CPE%20487%20Lab%205%20Part%202.mp3)
